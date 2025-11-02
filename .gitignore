@@ -1,0 +1,10 @@
+node_modules
+storybook-static
+.vite
+/dist
+.DS_Store
+*.log
+**/.turbo
+**/.cache
+.playwright
+ms-playwright

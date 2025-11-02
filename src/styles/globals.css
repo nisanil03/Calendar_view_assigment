@@ -1,0 +1,17 @@
+/* Global styles for Calendar View Component */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light dark;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  @apply antialiased bg-white text-gray-900 dark:bg-gray-950 dark:text-gray-100;
+}
+
